@@ -86,7 +86,7 @@ h1{
 .mycart-header{
   margin-top: 20px !important;
   color: rgb(238, 248, 240); 
-  background-color: #150550;
+  background-color: #483434;
 }
 .my-cart{
   text-align: left;
@@ -98,6 +98,10 @@ h1{
 }
 .meta{
   font-size: 8px !important;
+}
+
+.drag{
+  background-color: lightblue !important;
 }
 
 
