@@ -31,8 +31,8 @@ export function setInCart({id, inCart}){
         setTimeout(() =>{
             phones = {
                 ...phones,
-                id :{
-                    ...phonesid,
+                [id]: {
+                    ...phones[id],
                     inCart: inCart
                 }
             }
